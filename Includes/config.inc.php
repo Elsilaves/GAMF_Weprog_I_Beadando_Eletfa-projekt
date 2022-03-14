@@ -21,7 +21,8 @@ $pgnf = array(
 );
 
 $pages = array(
-    '/' => array('file' => 'introduction', 'text' => 'Introduction', 'menu' => array(1,1)),
+    '/' => array('file' => 'introduction', 'text' => 'Bemutatkozás', 'menu' => array(1,1)),
+    
 );
 
 

@@ -1,0 +1,73 @@
+/*Global*/
+/*...........................................................................................................*/
+
+body{
+    margin: 0px;
+}
+
+/*...........................................................................................................*/
+
+/*Navigation Bar*/
+/*............................................................................................................*/
+
+.navBar{
+    width: 100%;
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.7;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.navBarLi{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 8px;
+}
+
+.navBarLi:hover{background-color: #111; color: white;}
+.navBarLi:last-child{border-right: none;}
+
+.navBarHref{
+    display: block;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px;
+    border: none;
+}
+
+.dropDown_Menu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropDown_Menu a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navBarLi:hover .dropDown_Menu{display: block;}
+
+.dropDown_Menu a{background-color: #f1f1f1}
+
+.dropDown_Menu a:hover{background-color: darkgrey;}
+
+/*...........................................................................................................*/
+
+/*Content*/
+/*............................................................................................................*/
+
+/*...........................................................................................................*/
