@@ -2,6 +2,7 @@
 include('./Includes/config.inc.php');
 
 $find = $pages['/'];
+$find2 = $contact['contact'];
 if (isset($_GET['page'])) {
 	if (isset($pages[$_GET['page']]) && file_exists("./Templates/Pages/{$pages[$_GET['page']]['file']}.tpl.php")) {$find = $pages[$_GET['page']];
 	}

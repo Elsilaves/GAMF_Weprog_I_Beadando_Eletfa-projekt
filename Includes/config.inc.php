@@ -24,7 +24,18 @@ $pgnf = array(
 
 $pages = array(
     '/' => array('file' => 'introduction', 'text' => 'Bemutatkozás', 'menu' => array(1,1)),
-    'eticalCodex' => array('file' => 'eticalCodex', 'text' => 'Etikai Kódex', 'menu' => array(1,1))
+    'eticalCodex' => array('file' => 'eticalCodex', 'text' => 'Etikai Kódex', 'menu' => array(1,1)),
+    'schoolCommunityService' => array('file' => 'schoolCommunityService', 'text' => 'Iskolai Közösségi Szolgálat', 'menu' => array(1,1)),
+    'publicBenefitReports' => array('file' => 'publicBenefitReports', 'text' => 'Közhasznűsági Beszámolóink', 'menu' => array(1,1)),
+    'mission' => array('file' => 'mission', 'text' => 'Küldetésünk', 'menu' => array(1,1)),
+    'strategy' => array('file' => 'strategy', 'text' => 'Stratégia', 'menu' => array(1,1)),
+    'management' => array('file' => 'management', 'text' => 'Tagjaink, Vezetőség', 'menu' => array(1,1)),
+    'story' => array('file' => 'story', 'text' => 'Életfa Története', 'menu' => array(1,1)),
+    'policy' => array('file' => 'policy', 'text' => 'Adatkezelési Szabályzat és Tájékoztató', 'menu' => array(1,1)),
+);
+
+$contact = array(
+    'contact' => array('file' => 'contact', 'text' => 'Lakossági bejelentés "Zöld Telefon"', 'menu' => array(1,1)),
 );
 
 ?>
