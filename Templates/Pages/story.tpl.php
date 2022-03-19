@@ -8,9 +8,12 @@ Mégis, mikor több mint egy évvel ezelőtt Bárdos Ferenc előállt ötletéve
 </p>
 <p>Elek Eszter</p>
 
-<a href="https://eletfa.org.hu/node/45">AZ ELSŐ ÉVGYŰRŰK (1989 - 1994)</a>
-<a href="https://eletfa.org.hu/node/44">GYÖKEREK - BESZÉLGETÉS AZ ALAPÍTÁS ELŐZMÉNYEIRŐL</a>
-<a href="https://eletfa.org.hu/node/46">LAKÓHELYÜNKÉRT, KIS-TÓ, REAK (1995 - 2000)</a>
+<p><a href="https://eletfa.org.hu/node/45">AZ ELSŐ ÉVGYŰRŰK (1989 - 1994)</a>
+</p>
+<p><a href="https://eletfa.org.hu/node/44">GYÖKEREK - BESZÉLGETÉS AZ ALAPÍTÁS ELŐZMÉNYEIRŐL</a>
+</p>
+<p><a href="https://eletfa.org.hu/node/46">LAKÓHELYÜNKÉRT, KIS-TÓ, REAK (1995 - 2000)</a>
+</p>
 
 
 </div>

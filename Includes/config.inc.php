@@ -35,7 +35,14 @@ $pages = array(
 );
 
 $contact = array(
-    'contact' => array('file' => 'contact', 'text' => 'Lakossági bejelentés "Zöld Telefon"', 'menu' => array(1,1)),
+    'con' => array('file' => 'contact', 'text' => 'Lakossági bejelentés "Zöld Telefon"', 'menu' => array(1,1)),
+);
+
+$programs = array (
+    'EFOP' => array('file' => 'EFOP', 'text' => 'EFOP-5.2.2 - CIVIL HÁLÓZATOK KÖZÉP-EURÓPÁBAN', 'menu' => array(1,1)),
+    'CSR' => array('file' => 'CSR', 'text' => 'TÁRSADALMI SZEREPVÁLLALÁS - CSR', 'menu' => array(1,1)),
+    '=' => array('file' => '=', 'text' => 'ÉLET=FA - KÖZÖSSÉGI FAÜLTETÉS', 'menu' => array(1,1)),
+
 );
 
 ?>

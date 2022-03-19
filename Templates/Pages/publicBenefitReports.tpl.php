@@ -1,4 +1,4 @@
-<div class="contant">
+<div class="content">
     <h1>KÖZHASZNÚSÁGI BESZÁMOLÓINK</h1>
     <p>
         Ezen az oldalon megtalálható az Életfa 
