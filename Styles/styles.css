@@ -15,6 +15,10 @@ li{
     margin-bottom: 4px;
 }
 
+a{
+    color: green;
+}
+
 /*...........................................................................................................*/
 
 /*Search bar*/
@@ -73,6 +77,7 @@ li{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    max-width: 60px;
 }
 
 .dropDown_Menu a{
@@ -87,6 +92,26 @@ li{
 .dropDown_Menu a{background-color: #f1f1f1}
 
 .dropDown_Menu a:hover{background-color: darkgrey;}
+
+/*...........................................................................................................*/
+
+/*Map*/
+/*............................................................................................................*/
+
+.mapouter{
+    position:static;
+    text-align:right;
+    height:333px;
+    width:742px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:333px;
+    width:742px;
+    }
+
 
 /*...........................................................................................................*/
 

@@ -20,8 +20,5 @@ if (isset($_GET['page'])) {
 	}
 }
 
-
-
-
 include('./Templates/index.tpl.php'); 
 ?>

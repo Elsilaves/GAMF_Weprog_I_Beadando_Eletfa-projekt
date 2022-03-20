@@ -153,7 +153,7 @@
         <li>Az Adatkezelő a neki megadott személyes adatokat nem ellenőrzi. A megadott adatok megfelelősségéért kizárólag az azt megadó személy felel. Bármely felhasználó e-mail címének megadásakor egyben felelősséget vállal azért, hogy a megadott e-mail címről kizárólag ő vesz igénybe szolgáltatást. E felelősségvállalásra tekintettel egy megadott e-mail címen történt belépésekkel összefüggő mindennemű felelősség kizárólag azt a felhasználót terheli, aki az adott e-mail címet regisztrálta. Amennyiben a felhasználó nem saját személyes adatait adja meg, úgy kötelessége az érintett hozzájárulásának beszerzése.</li>
         <li>A személyes adatok megismerésére jogosultak az Életfával munkaviszonyban vagy megbízási jogviszonyban álló munkatársak, a termékek kiszállításában közreműködő futárszolgálat munkatársai (amennyiben a kiszállítást a vásárló kérte), valamint az Adatfeldolgozók.</li>
     </ol>
-    <h2><li>JOGAID:</li></h2>
+    <h2><li>JOGAID</li></h2>
         <p>Ezen adatkezelések esetén is jogosult vagy arra, hogy a saját helyzeteddel kapcsolatos okokból tiltakozhass a vonatkozó személyes adatok kezelése ellen, kivéve, ha az adatkezelésre közérdekű okból végzett feladat végrehajtása érdekében van szükség (pl. például KSH, vagy egyéb állami szerv felé történő kötelező adatszolgáltatás).</p>
         <p>Az adatkezelés időtartama után évente egyszer felhívást küldünk, melyben megerősítheted tájékoztatási igényed, vagy jelezheted, hogy a szolgáltatásra a továbbiakban is vagy már nem tartasz igényt. Amennyiben az említett felhívásra kifejezetten nem reagálsz, adataidat 30 napos határidővel töröljük.  </p>
         <p>Alapítványunk a honlapon rögzített adatait külföldre, vagy más szervezet részére nem továbbítja.</p>
