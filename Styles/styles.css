@@ -3,11 +3,13 @@
 
 body{
     margin: 0px;
+    font-family: 'Source Serif Pro', serif;
+    color:#111;
 }
 
 .content{
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 li{
@@ -18,6 +20,7 @@ li{
 a{
     color: green;
 }
+
 
 /*...........................................................................................................*/
 
@@ -95,23 +98,42 @@ a{
 
 /*...........................................................................................................*/
 
-/*Map*/
+/*Map/Contact*/
 /*............................................................................................................*/
 
 .mapouter{
     position:static;
     text-align:right;
     height:333px;
-    width:742px;
+    width:100%;
+    margin: auto;
+    
 }
 
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
     height:333px;
-    width:742px;
+    width:100%;
+    margin: auto;
+    }
+    
+    iframe{
+        height:333px;
+        width:100%;
+        margin: auto;
     }
 
+    .wrapperBox{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .textBox{
+        text-align: center;
+    }
 
 /*...........................................................................................................*/
 

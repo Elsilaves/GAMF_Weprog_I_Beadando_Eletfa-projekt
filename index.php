@@ -1,5 +1,6 @@
 <?php
 include('./Includes/config.inc.php');
+
 		if ($url = '/') {
 			$find = $pages['/'];
 		}elseif ($url = 'con') {
@@ -19,6 +20,5 @@ if (isset($_GET['page'])) {
 		$find = $pgnf;header("HTTP/1.0 404 Not Found");
 	}
 }
-
 include('./Templates/index.tpl.php'); 
 ?>
