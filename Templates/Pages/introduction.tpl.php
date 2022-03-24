@@ -1,8 +1,7 @@
-<div class="content">
-
-    <div class="mainVidWrap" >
+<div class="mainVidWrap" >
     <?php include ('./Templates/Pages/videoGalery.tpl.php') ?>
     </div>
+<div class="content">
     <div class="welcom">
     <h1>KÖSZÖNTÜNK AZ ÉLETFA KÖRNYEZETVÉDŐ SZÖVETSÉG WEBOLDALÁN!</h1>
 

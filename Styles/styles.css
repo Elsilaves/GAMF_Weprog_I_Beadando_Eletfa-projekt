@@ -150,7 +150,7 @@ a{
 /*............................................................................................................*/
 .mainVidWrap{
 margin: auto;
-width: 100%;
+width: 90%;
 height: 333px;
 }
 
@@ -166,8 +166,8 @@ height: 333px;
 
 .prev,.next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
+    position:fixed;
+    margin-top: -15%;
     width: auto;
     padding: 16px;
     color:#111;
@@ -178,9 +178,11 @@ height: 333px;
     -webkit-user-select: none;
 }
 
+.prev{
+    left: 0;
+}
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
