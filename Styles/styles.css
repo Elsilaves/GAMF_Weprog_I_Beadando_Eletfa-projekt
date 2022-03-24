@@ -19,6 +19,11 @@ li{
 a{
     color: green;
 }
+
+.mapouter,.gmap_canvas,iframe,.mainVidWrap,.mainVid{
+height: 400px;
+
+}
 /*...........................................................................................................*/
 
 /*Search bar*/
@@ -101,7 +106,6 @@ a{
 .mapouter{
     position:static;
     text-align:right;
-    height:333px;
     width:90%;
     margin: auto;
 }
@@ -109,13 +113,11 @@ a{
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:333px;
     width:100%;
     margin: auto;
     }
     
     iframe{
-        height:333px;
         width:100%;
         margin: auto;
     }
@@ -151,13 +153,11 @@ a{
 .mainVidWrap{
 margin: auto;
 width: 90%;
-height: 333px;
 }
 
 .mainVid{
     position: static;
     width: 100%;
-    height: 333px;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center;
