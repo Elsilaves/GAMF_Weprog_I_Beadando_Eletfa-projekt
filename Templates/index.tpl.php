@@ -15,8 +15,8 @@
         <input type="text" placeholder="Keresés...">
         <img class="searchLogo" src="./Images/<?=$header['searchLogo']?>" alt="<?=$header['searchAlt']?>">
         </div>
-        <?php include('./Templates/Menu/main.tpl.php')?>
 </header>
+<?php include('./Templates/Menu/main.tpl.php')?>
 </body>
 </html>
 

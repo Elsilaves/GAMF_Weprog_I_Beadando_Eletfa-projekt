@@ -15,8 +15,11 @@ if (isset($_GET['page'])) {
 		{$find = $pages[$_GET['page']];
 	}elseif (isset($contact[$_GET['page']]) && file_exists("./Templates/Pages/{$contact[$_GET['page']]['file']}.tpl.php")) 
 		{$find = $contact[$_GET['page']];
-	}
-	else if (isset($extras[$_GET['page']]) && file_exists("./Templates/Pages/{$extras[$_GET['page']]['file']}.tpl.php")) 
+	}elseif (isset($programs[$_GET['page']]) && file_exists("./Templates/Pages/{$programs[$_GET['page']]['file']}.tpl.php")) 
+		{$find = $programs[$_GET['page']];
+	}elseif (isset($imggallery[$_GET['page']]) && file_exists("./Templates/Pages/{$imggallery[$_GET['page']]['file']}.tpl.php")) 
+		{$find = $imggallery[$_GET['page']];
+	}else if (isset($extras[$_GET['page']]) && file_exists("./Templates/Pages/{$extras[$_GET['page']]['file']}.tpl.php")) 
 		{$find = $extras[$_GET['page']];
 	}
 	else 

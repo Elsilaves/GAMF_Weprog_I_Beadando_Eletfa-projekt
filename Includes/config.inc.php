@@ -17,7 +17,6 @@ $footer = array(
     'company' => 'Életfa Környezetvédő Szövetség'
 );
 
-
 $pgnf = array(
     'file' => '404', 'text' => 'A keresett oldal nem található!'
 );
@@ -43,6 +42,10 @@ $programs = array (
     'EFOP' => array('file' => 'EFOP', 'text' => 'EFOP-5.2.2 - Civil Hálózatok Közép-Európában', 'menu' => array(1,1)),
     'CSR' => array('file' => 'CSR', 'text' => 'Társadalmi Szerepvállalás - CSR', 'menu' => array(1,1)),
     '=' => array('file' => '=', 'text' => 'Élet=Fa - Közösségi Faültetés', 'menu' => array(1,1)),
+);
+
+$imggallery = array (
+    'img' => array('file' => 'img', 'text' => 'Képek', 'menu' => array(1,1)),
 );
 
 ?>
