@@ -1,4 +1,7 @@
 <?php
+
+//////////////////////appearance//////////////////////////
+
 $titleName = array(
     'title' => 'Életfa Környezetvédő Szövetség'
 );
@@ -16,6 +19,8 @@ $footer = array(
     'copyrights' => 'Copyright '.date("Y"."."),
     'company' => 'Életfa Környezetvédő Szövetség'
 );
+
+/////////////////////page arrays///////////////////////////
 
 $pgnf = array(
     'file' => '404', 'text' => 'A keresett oldal nem található!'
@@ -48,4 +53,11 @@ $imggallery = array (
     'img' => array('file' => 'img', 'text' => 'Képek', 'menu' => array(1,1)),
 );
 
+
+///////////////////image gallery/////////////////////////////
+$folder = './ImageGallery/';
+$types = array('.jpg','.png');
+$mediaTypes = array('image/jpg','image/png');
+$datetpl = "Y.m.d. H:i";
+$imgMaxSize = 500*1024;
 ?>
