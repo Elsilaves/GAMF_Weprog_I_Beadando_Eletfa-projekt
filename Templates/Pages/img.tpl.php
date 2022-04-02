@@ -1,5 +1,5 @@
+<div class="content">
 <?php
-
 $pictures = array();
 $imgReader = opendir($folder);
 
@@ -16,7 +16,6 @@ arsort($pictures);
 
 foreach($pictures as $imgFile => $date){
 ?>
-<div class="content">
     <div class="picture"> 
         <a href="<?php echo $folder.$imgFile;?>">
             <img class="img" src="<?php echo $folder.$imgFile; ?>" alt="<?php echo $imgFile;?>">
@@ -24,7 +23,8 @@ foreach($pictures as $imgFile => $date){
         <p>Név: <?php echo $imgFile;?></p>
         <p>Dátum: <?php echo date($datetpl,$date); ?></p>
     </div>
-</div>
 <?php 
 } 
 ?>
+</div>
+<input class="uploadbtn" type="button" onclick="location.href='imgupld.tpl.php'" value="Kép feltöltése">
