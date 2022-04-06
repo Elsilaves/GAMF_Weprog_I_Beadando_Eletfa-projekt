@@ -44,6 +44,26 @@
                 <?php } ?>
                                 </div>
                 </li>
+        <div class="btnAside">
+                <li class="navBarLi">
+                <?php foreach ($reg as $url => $page) { ?>
+                        <?php if(! isset($_SESSION['login']) && 
+                        $page['menu'][0]|| isset($_SESSION['login']) && $page['menu'][1]) { ?>
+                                <a class="navBarLi" id="loginbtn"  href="<?= ($url == '/') ? '.' : ('?page=' . $url) ?>">
+                                <?= $page['text'] ?></a>
+                        <?php } ?>
+                <?php } ?>
+                </li>
+                <li class="navBarLi">
+                <?php foreach ($login as $url => $page) { ?>
+                        <?php if(! isset($_SESSION['login']) && 
+                        $page['menu'][0]|| isset($_SESSION['login']) && $page['menu'][1]) { ?>
+                                <a class="navBarLi" id="loginbtn"  href="<?= ($url == '/') ? '.' : ('?page=' . $url) ?>">
+                                <?= $page['text'] ?></a>
+                        <?php } ?>
+                <?php } ?>
+                </li>
+        </div>
         </ul>
 </nav>
 <hr>
