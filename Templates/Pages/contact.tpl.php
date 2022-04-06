@@ -1,6 +1,6 @@
 <script src="/Scripts/contact.js"></script>
 <div class="content">
-    <h1>ZÖLD TELEFON LAKOSSÁGI BEJELENTÉS</h1>
+    <h1>LAKOSSÁGI BEJELENTÉS</h1>
 
     <form class="msg" action="/msg.php" onsubmit="return checkmsg();" method="POST">
         <label for="name">Név</label>

@@ -6,6 +6,8 @@ $titleName = array(
 
 $header = array(
     'logo' => 'eletfa-u2.png',
+    'logiLogo' => 'login.png',
+    'loginAlt' => 'login',
     'logoAlt' => 'eletfa-u2',
     'searchLogo' => 'search.png',
     'searchAlt'=>'search',
@@ -36,7 +38,7 @@ $pages = array(
 );
 
 $contact = array(
-    'con' => array('file' => 'contact', 'text' => 'Lakossági bejelentés "Zöld Telefon"', 'menu' => array(1,1)),
+    'con' => array('file' => 'contact', 'text' => 'Lakossági bejelentés', 'menu' => array(1,1)),
     'atnblty' => array('file' => 'atnblty', 'text' => 'Elérhetőségek', 'menu' => array(1,1)),
 );
 
@@ -49,6 +51,14 @@ $programs = array (
 $imggallery = array (
     'img' => array('file' => 'img', 'text' => 'Képek', 'menu' => array(1,1)),
    // 'imgupld' => array('file' => 'imgupld', 'text' => 'Képfeltöltés', 'menu' => array(1,1)),
+);
+
+$login = array (
+    'lgn' => array('file' => 'lgn', 'text' => 'Bejelentkezés', 'menu' => array(1,1)),
+);
+
+$reg = array (
+    'reg' => array('file' => 'reg', 'text' => 'Regisztráció', 'menu' => array(1,1)),
 );
 
 ///image gallery upload/////////////////////////////
