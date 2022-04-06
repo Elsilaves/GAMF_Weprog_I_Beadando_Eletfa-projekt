@@ -9,6 +9,12 @@ include('./Includes/config.inc.php');
 			$find = $contact['con'];
 		}elseif ($url = 'prog') {
 			$find = $programs['prog'];
+		}elseif ($url = 'img') {
+			$find = $imggallery['img'];
+		}elseif ($url = 'lgn') {
+			$find = $login['lgn'];
+		}elseif ($url = 'reg') {
+			$find = $reg['reg'];
 		}
 
 //Oldalak kezelése meühöz
@@ -21,6 +27,10 @@ if (isset($_GET['page'])) {
 		{$find = $programs[$_GET['page']];
 	}elseif (isset($imggallery[$_GET['page']]) && file_exists("./Templates/Pages/{$imggallery[$_GET['page']]['file']}.tpl.php")) 
 		{$find = $imggallery[$_GET['page']];
+	}elseif (isset($login[$_GET['page']]) && file_exists("./Templates/Pages/{$login[$_GET['page']]['file']}.tpl.php")) 
+		{$find = $login[$_GET['page']];
+	}elseif (isset($reg[$_GET['page']]) && file_exists("./Templates/Pages/{$reg[$_GET['page']]['file']}.tpl.php")) 
+		{$find = $reg[$_GET['page']];
 	}else if (isset($extras[$_GET['page']]) && file_exists("./Templates/Pages/{$extras[$_GET['page']]['file']}.tpl.php")) 
 		{$find = $extras[$_GET['page']];
 	}
