@@ -2,7 +2,7 @@
 <?php
 include('./Includes/config.inc.php');
 
-//különálló választéklista a menühöz
+//különálló választéklista a menühöz, ez a függvény választja külön a menü elemeit 
 		if ($url = '/') {
 			$find = $pages['/'];
 		}elseif ($url = 'con') {
@@ -15,6 +15,8 @@ include('./Includes/config.inc.php');
 			$find = $login['lgn'];
 		}elseif ($url = 'reg') {
 			$find = $reg['reg'];
+		}elseif ($url = 'DataFromDb') {
+			$find = $DataFromDb['DataFromDb'];
 		}
 
 //Oldalak kezelése meühöz
@@ -31,6 +33,8 @@ if (isset($_GET['page'])) {
 		{$find = $login[$_GET['page']];
 	}elseif (isset($reg[$_GET['page']]) && file_exists("./Templates/Pages/{$reg[$_GET['page']]['file']}.tpl.php")) 
 		{$find = $reg[$_GET['page']];
+	}elseif (isset($DataFromDb[$_GET['page']]) && file_exists("./Templates/Pages/{$DataFromDb[$_GET['page']]['file']}.tpl.php")) 
+		{$find = $DataFromDb[$_GET['page']];
 	}else if (isset($extras[$_GET['page']]) && file_exists("./Templates/Pages/{$extras[$_GET['page']]['file']}.tpl.php")) 
 		{$find = $extras[$_GET['page']];
 	}
@@ -39,5 +43,5 @@ if (isset($_GET['page'])) {
 		$find = $pgnf;header("HTTP/1.0 404 Not Found"); 
 	}
 }
-include('./Templates/index.tpl.php'); 
+include('./Templates/index.tpl.php');
 ?>

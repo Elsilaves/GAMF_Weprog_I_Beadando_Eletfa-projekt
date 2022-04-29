@@ -27,4 +27,8 @@ foreach($pictures as $imgFile => $date){
 } 
 ?>
 </div>
+
+<?php
+?>
+
 <input class="uploadbtn" type="button" onclick="location.href='imgupld.tpl.php'" value="Kép feltöltése">
