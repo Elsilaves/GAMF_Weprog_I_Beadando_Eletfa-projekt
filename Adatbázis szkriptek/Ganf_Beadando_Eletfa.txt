@@ -1,11 +1,11 @@
 #################Létehozza a Ganf_Beadando_Eletfa adatbázist amenniyben nem létezik.
 
-CREATE DATABASE IF NOT EXISTS Ganf_Beadando_Eletfa;
+CREATE DATABASE IF NOT EXISTS gilverhu_Ganf_Beadando_Eletfa;
 USE Ganf_Beadando_Eletfa;
 
 ################Létehozza az Uzenetek táblát amenniyben nem létezik.
 
-CREATE table IF NOT EXISTS Uzenetek(
+CREATE table IF NOT EXISTS gilverhu_Ganf_Beadando_Eletfa.Uzenetek(
 ID INT NOT NULL AUTO_INCREMENT , 
 nev VARCHAR(50) NOT NULL , 
 email VARCHAR(40) NOT NULL , 
@@ -13,12 +13,11 @@ targy VARCHAR(40) NOT NULL ,
 uzenet VARCHAR(500) NOT NULL , 
 datum VARCHAR(10) NOT NULL,
 ido VARCHAR(8) NOT NULL,
-PRIMARY KEY (`ID`)
-);";
+PRIMARY KEY (`ID`));
 
 ################Létehozza az Users táblát amenniyben nem létezik.
 
-CREATE TABLE IF NOT EXISTS Ganf_Beadando_Eletfa.Users
+CREATE TABLE IF NOT EXISTS gilverhu_Ganf_Beadando_Eletfa.Users
 (ID INT NOT NULL AUTO_INCREMENT , 
 vezetek_nev VARCHAR(28) NOT NULL ,
 kereszt_nev VARCHAR(27) NOT NULL , 

@@ -77,7 +77,9 @@ $dbcon-> prepare($redDborder)->execute([
     $time->format('H:i:s')
 ]);
 
+
 // Az adatbázisban rögzített üzeneteket írja ki táblázat formában rögzítést követően
+/*
 $regstmsg = $dbcon->query("SELECT * FROM Users
 ORDER BY ID DESC");
     echo 
@@ -121,7 +123,9 @@ ORDER BY ID DESC");
 echo "
 </tr>
 </table><br>"
-;
+;*/
+
+echo "A regisztráció sikeres volt!";
 
 } catch (PDOException $e) { //Hibakezelés
     echo "Az adatbázishoz nem lehetett csatlakozni: :" . $e->getMessage();
